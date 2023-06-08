@@ -6,7 +6,7 @@ st.write("This is a super cool Streamlit app.")
 
 import streamlit as st
 
-Valor = st.slider('Indica el valor ', 0, 10, 2)
+Valor = st.slider('Indica el valor ', 0, 10)
 st.write("este es mi valor = ", Valor)
 st.write("este es mi valor + 10= ", Valor+10)
 

@@ -1,5 +1,6 @@
 st.slider_ Poner un valor en un slider y imprimir el valor en la app y el valor +10
 st.slider: Si el valor es mayor que 5, imprimir   "Mayor que 5". Añadir checkbox, y solo imprimir si el checkbox esta marcado.
+Poner el slider y el checkbox en el lateral (st.sidebar)
 Subir los datos del big mac index
 Printear los datos del big mac index.
 Printear con un filtro de pais
