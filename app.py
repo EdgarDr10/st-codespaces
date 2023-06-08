@@ -43,3 +43,4 @@ st.write(data_pais_1.head())
 
 
 st.line_chart(data_pais_1, x="date",y="dollar_price")
+
