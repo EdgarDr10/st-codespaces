@@ -3,4 +3,9 @@ st.slider: Si el valor es mayor que 5, imprimir   "Mayor que 5". Añadir checkbo
 Poner el slider y el checkbox en el lateral (st.sidebar)
 Subir los datos del big mac index
 Printear los datos del big mac index.
-Printear con un filtro de pais
+Printear con un filtro de pais, st.select_box:
+*Crear un select box con 2 opciones (Argentina, Brasil)
+*printear solo datos de Argentina
+*crear un st.write con un query que enseñe solo el pais selecionado.
+*crear una lista con todos los paises
+*Cambiar el select box original por una lista de todos los paises.

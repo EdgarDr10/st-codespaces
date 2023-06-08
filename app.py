@@ -16,3 +16,17 @@ agree = st.sidebar.checkbox('El valor es mayor que 5')
 if Valor >5 and agree:
     st.write("mayor que 5")
 
+import pandas as pd
+data=pd.read_csv("big mac.csv")
+st.write(data.head())
+
+
+import streamlit as st
+
+option = st.sidebar.selectbox(
+    'Indicame el País',
+    ('Argentina', 'Brazil'))
+
+
+data_pais=data.loc[data['name']==option,:]
+st.write(data_pais.head())
