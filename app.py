@@ -30,3 +30,16 @@ option = st.sidebar.selectbox(
 
 data_pais=data.loc[data['name']==option,:]
 st.write(data_pais.head())
+
+name_data=data['name'].unique().tolist()
+
+
+option_lista= st.sidebar.selectbox(
+    'Indicame el País de la lista',
+    (name_data))
+
+data_pais_1=data.loc[data['name']==option_lista,:]
+st.write(data_pais_1.head())
+
+
+st.line_chart(data_pais_1, x="date",y="dollar_price")
